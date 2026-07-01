@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6e0082/T/v1
+canonical_location: https://kanripo.org/bkk/KR6e0082/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 華嚴一乘十玄門
+  identifiers:
+    krp: KR6e0082
+    cbeta: T45n1868
+    cbeta_old_id: T45n1868
+    authorityid: CA0001461
+    json_key: T1868
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T45/T45n1868.xml
+    old_id: T45n1868
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0082_000-T.yaml, hash: 'sha256:87a1ac0435e0a4a81b00c1f0e4f89af75297e73c77aa590977632ed011458726'}
+  - {seq: 1, filename: KR6e0082_001-T.yaml, hash: 'sha256:c3f442d53388fc38395c4db94a5a947e4c9a86095378f2b7892fa92397d5c590'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6e0082_000-T.markers.yaml, hash: 'sha256:d2ebdcd77494ba44619a0df312fcc4a7367e1296beba9c00c5f6d53157a5647e'}
+  - {seq: 1, role: markers, filename: assets/KR6e0082_001-T.markers.yaml, hash: 'sha256:42c332a232275c3f5d1a3898c69165e699761aeb345da23000c96b20820e23c4'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0082_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6661
+  label: 華嚴一乘十玄門
+  type: juan
+  level: 1
+hash: sha256:76020e140b77cfe58c6b41f860c80a0330cc6856ccbeec0240f4508202c09ad4
