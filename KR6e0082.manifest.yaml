@@ -25,9 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6e0082_000.yaml, hash: 'sha256:87a1ac0435e0a4a81b00c1f0e4f89af75297e73c77aa590977632ed011458726'}
-  - {seq: 1, filename: KR6e0082_001.yaml, hash: 'sha256:e973f7394817b235b03ddc72f3b2ae8e6732bada878b6f47abb2dabf6c80998c'}
+  - {seq: 1, filename: KR6e0082_001.yaml, hash: 'sha256:c3f442d53388fc38395c4db94a5a947e4c9a86095378f2b7892fa92397d5c590'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6e0082_001.markers.yaml, hash: 'sha256:a3623c6a9824081ffaa4e7b7cdfb425af6148f637748bfd0bf6c711a38784483'}
+  - {seq: 0, role: markers, filename: assets/KR6e0082_000.markers.yaml, hash: 'sha256:20a772bb305e2f7986859e4030f1f0d42f6d412c7d6d2e309ccf44c2cc546b38'}
+  - {seq: 1, role: markers, filename: assets/KR6e0082_001.markers.yaml, hash: 'sha256:719e0c82970242d40f6d4030b57507fc3261810716e6ee6056c178883f6a0c0f'}
 table_of_contents:
 - ref:
     seq: 1
@@ -39,7 +40,4 @@ table_of_contents:
   label: 華嚴一乘十玄門
   type: juan
   level: 1
-hash: sha256:a77aa8711aee703f29b12b4f138e516f4a38310247c0ac257ec46d97f1ed472d
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:c1f2324a7a98d29672363ee1ffed71e5f92128795bb084b43cdbc5c545be2637
