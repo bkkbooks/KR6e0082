@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6e0082/v1
 canonical_location: https://kanripo.org/bkk/KR6e0082/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 華嚴一乘十玄門
   identifiers:
@@ -25,10 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6e0082_000.yaml, hash: 'sha256:87a1ac0435e0a4a81b00c1f0e4f89af75297e73c77aa590977632ed011458726'}
-  - {seq: 1, filename: KR6e0082_001.yaml, hash: 'sha256:c3f442d53388fc38395c4db94a5a947e4c9a86095378f2b7892fa92397d5c590'}
+  - {seq: 1, filename: KR6e0082_001.yaml, hash: 'sha256:911b1d7cb4b45c2e74a3aadedc9665e00c917439b603ae7f2e34360f018883e5'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6e0082_000.markers.yaml, hash: 'sha256:20a772bb305e2f7986859e4030f1f0d42f6d412c7d6d2e309ccf44c2cc546b38'}
-  - {seq: 1, role: markers, filename: assets/KR6e0082_001.markers.yaml, hash: 'sha256:719e0c82970242d40f6d4030b57507fc3261810716e6ee6056c178883f6a0c0f'}
+  - {seq: 1, role: markers, filename: assets/KR6e0082_001.markers.yaml, hash: 'sha256:5b5079859095764be70a4bfbc62080c86e5574a141a40f646abfb0f320f9da77'}
 table_of_contents:
 - ref:
     seq: 1
@@ -40,4 +40,7 @@ table_of_contents:
   label: 華嚴一乘十玄門
   type: juan
   level: 1
-hash: sha256:c1f2324a7a98d29672363ee1ffed71e5f92128795bb084b43cdbc5c545be2637
+hash: sha256:f7ce501796a85dcf25268fed1b87a2399fd55ca629666b2ba2960a91ae59f5ea
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
